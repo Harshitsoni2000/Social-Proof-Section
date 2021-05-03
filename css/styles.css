@@ -42,11 +42,11 @@ p {
     'b1'
     'b2'
     'bB';
-  width: 357px;
-  height: 1450px;
+  width: 22.3125rem;
+  height: 90.625rem;
   place-items: center;
   margin: 4rem auto;
-  grid-row-gap: 20px;
+  grid-row-gap: 1.25rem;
 }
 
 /* BOX 1 */
@@ -58,7 +58,7 @@ p {
 
 .box1 p {
   color: hsl(303, 10%, 53%);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
 }
 
@@ -73,9 +73,9 @@ p {
     'b21'
     'b22'
     'b23';
-  font-size: 12px;
-  grid-row-gap: 20px;
-  height: 310px;
+  font-size: 0.75rem;
+  grid-row-gap: 1.25rem;
+  height: 19.375rem;
   width: 100%;
 }
 
@@ -89,7 +89,7 @@ p {
   place-items: center;
   /* grid-row-gap: 0.8rem; */
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 /* BOTTOM BOX */
@@ -99,8 +99,8 @@ p {
     'b3'
     'b4'
     'b5';
-  grid-row-gap: 20px;
-  height: 775px;
+  grid-row-gap: 1.25rem;
+  height: 48.4375rem;
 }
 
 .box3, .box4, .box5 {
@@ -123,10 +123,10 @@ p {
 }
 
 .bBName {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  padding-left: 20px;
-  padding-top: 5px;
+  padding-left: 1.25rem;
+  padding-top: 0.3125rem;
 }
 
 .bBName p:nth-child(2) {
@@ -135,7 +135,7 @@ p {
 }
 
 .bBInfo {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   color: hsl(300, 24%, 96%);
 }
@@ -165,11 +165,11 @@ p {
       'b1 b1 b1 b1 b2 b2 b2 b2 b2 b2 b2 b2'
       'bB bB bB bB bB bB bB bB bB bB bB bB';
     padding: 0;
-    width: 1108px;
+    width: 69.25rem;
     max-width: 98vw;
     height: auto;
     margin: auto;
-    grid-row-gap: 50px;
+    grid-row-gap: 3.125rem;
   }
 
   /* BOX 1 */
@@ -178,13 +178,13 @@ p {
   }
 
   .box1 p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     padding-right: 4rem;
   }
 
   .box1, .box2 {
     text-align: left;
-    width: 554px;
+    width: 34.625rem;
   }
 
   /* BOX 2 */
@@ -221,7 +221,7 @@ p {
   }
 
   .starText {
-    font-size: 13px;
+    font-size: 0.8125rem;
     place-self: center left;
     grid-column: 4 / 7;
   }
@@ -231,13 +231,13 @@ p {
     grid-template-areas:
     'b3 b4 b5';
     width: inherit;
-    height: 273px;
+    height: 17.0625rem;
     justify-content: space-between;
   }
 
   .box3, .box4, .box5 {
-    width: 350px;
-    height: 233px;
+    width: 21.875rem;
+    height: 14.5625rem;
   }
 
   .box4 {
